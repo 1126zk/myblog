@@ -34,6 +34,21 @@
             "location": "/about/#its-just-a-test",
             "text": "",
             "title": "It's just a test"
+        },
+        {
+            "location": "/news/",
+            "text": "It's a joke\n\n\nno news",
+            "title": "News"
+        },
+        {
+            "location": "/news/#its-a-joke",
+            "text": "",
+            "title": "It's a joke"
+        },
+        {
+            "location": "/news/#no-news",
+            "text": "",
+            "title": "no news"
         }
     ]
 }
