@@ -7,4 +7,3 @@ nav:
       - 运行指令.md: ch1run.md
       - 内核第一条指令: ch1firstInstruction.md
       - 输出hello_world: ch1hello.md
-  - compile: 
