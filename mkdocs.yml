@@ -4,7 +4,7 @@ nav:
   - Home: index.md
   - rcore: 
     - chapter1: 
-      - 运行指令.md: ch1运行指令.md
-      - 内核第一条指令: ch1内核第一条指令.md
-      - 输出hello_world: ch1输出hello_world.md
+      - 运行指令.md: ch1run.md
+      - 内核第一条指令: ch1firstInstruction.md
+      - 输出hello_world: ch1hello.md
   - compile: 
