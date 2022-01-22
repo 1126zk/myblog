@@ -20,7 +20,7 @@
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage" background="cherry.jpg">
+    <body class="homepage">
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
                 <a class="navbar-brand" href=".">My Docs</a>
@@ -34,13 +34,30 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem active">
-                                <a href="." class="nav-link">index</a>
+                                <a href="." class="nav-link">Home</a>
                             </li>
-                            <li class="navitem">
-                                <a href="about/" class="nav-link">about</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="news/" class="nav-link">news</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">rcore <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">chapter1</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="ch1run/" class="dropdown-item">运行指令.md</a>
+</li>
+            
+<li>
+    <a href="ch1firstInstruction/" class="dropdown-item">内核第一条指令</a>
+</li>
+            
+<li>
+    <a href="ch1hello/" class="dropdown-item">输出hello_world</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
                             </li>
                         </ul>
 
@@ -56,7 +73,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="about/" class="nav-link">
+                                <a rel="next" href="ch1run/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -80,6 +97,10 @@
             
             <li class="nav-item" data-level="1"><a href="#welcome-to-zks-website" class="nav-link">Welcome to ZK's Website</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#rcore" class="nav-link">当前正在更新rcore系列</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -87,54 +108,9 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<!-- # Welcome to MkDocs
-
-For full documentation visit [mkdocs.org](http://mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files. -->
 <h1 id="welcome-to-zks-website">Welcome to ZK's Website</h1>
-<p><img alt="image" src="OIP.jpg" /></p>
-<!-- $\color{#8470FF}{毛女侠， 昨天是我的错，希望您大人不计小人过，原谅我吧！}$ -->
-
-<!-- <font color=#FF8C00 size=5 face="楷体">毛女侠， 昨天是我的错，希望您大人不计小人过，原谅我吧！</font>
-<br>
-<font color=#FF8C00 size=5 face="楷体">我把大地借来写道歉信，我把天空借来写致歉词，我把海洋借来写对不起，毛大侠，你就看在大地的份上原谅我，看在天空的份上宽恕我，看在海洋的份上特赦我</font> -->
-
-<div>
-    <font color=#FF8C00 size=5 face="楷体">毛女侠， 昨天是我的错，希望您大人不计小人过，原谅我吧！</font>
-<br>
-<font color=#FF8C00 size=5 face="楷体">我把大地借来写道歉信，我把天空借来写致歉词，我把海洋借来写对不起，毛大侠，你就看在大地的份上原谅我，看在天空的份上宽恕我，看在海洋的份上特赦我</font>
-</div>
-
-<p><img alt="image" src="2.jpg" /><img alt="image" src="1.gif" /></p>
-<!-- <audio id="audio" controls="" preload="none">
-      <source id="mp3" src="zhiming.flac">
-      </audio> -->
-
-<!-- <audio id="audio" controls="" preload="none">
-      <source id="flac" src="time.flac">
-      </audio> -->
-
-<!-- <audio autoplay="autoplay" loop="loop" controls="controls">
-    <source id="flac" src="zhiming.flac"
-        type="audio/mpeg">
-</audio> -->
-
-<p><audio id="audio" controls="" autoplay="autoplay" loop="loop">
-    <source id="flac" src="time.flac">
-</audio></p></div>
+<h2 id="rcore">当前正在更新rcore系列</h2>
+<p>​   </p></div>
             </div>
         </div>
 
@@ -215,5 +191,5 @@ For full documentation visit [mkdocs.org](http://mkdocs.org).
 
 <!--
 MkDocs version : 1.2.3
-Build Date UTC : 2022-01-18 14:50:56.687353+00:00
+Build Date UTC : 2022-01-22 06:07:02.790793+00:00
 -->
