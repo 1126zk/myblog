@@ -3,7 +3,10 @@ site_name: My Docs
 nav:
   - Home: index.md
   - rcore: 
-    - chapter1: 
-      - 运行指令.md: ch1run.md
-      - 内核第一条指令: ch1firstInstruction.md
-      - 输出hello_world: ch1hello.md
+  - Chapter1: 
+    - 运行指令: ch1运行指令.md
+    - 内核第一条指令: ch1内核第一条指令.md
+    - 输出hello_world: ch1输出hello_world.md
+  - Chapter2:
+    - 生成应用程序: ch2生成应用程序.md
+    - 实现批处理操作系统: ch2实现批处理操作系统.md
