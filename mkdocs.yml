@@ -2,7 +2,7 @@ site_name: My Docs
 
 nav:
   - Home: index.md
-  - rcore: 
+  # - rcore: 
   - Chapter1: 
     - 运行指令: ch1运行指令.md
     - 内核第一条指令: ch1内核第一条指令.md
